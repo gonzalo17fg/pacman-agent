@@ -97,7 +97,7 @@ class aStarAgent(CaptureAgent):
         else:
             return successor
 
-   def evaluate(self, games_state, action):
+     def evaluate(self, games_state, action):
         """
         Computes a linear combination of features and feature weights
         """
